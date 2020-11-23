@@ -28,4 +28,4 @@ datasets come from the same model finetuned on their respective val set. For mor
 
 We report the performance of all mentioned TSGV methods with metric R@1,IoU@0.7 in the figure below. From this figure, we can observe that almost all methods have a significant
 performance gap between the test-iid and test-ood sets, i.e., these methods always over-rely on the moment annotation biases, and fail to generalize to the OOD test set. Meanwhile, the performance results on the original test set and the proposed test-iid set are relatively close, because the moment distribution of the test-iid set is still similar to the majority of the whole dataset.
-![](https://github.com/yytzsy/grounding_changing_distribution/blob/main/results.jpg)
+![](https://github.com/yytzsy/grounding_changing_distribution/blob/main/performance.jpg)
