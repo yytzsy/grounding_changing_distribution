@@ -22,7 +22,7 @@ To demonstrate the difficulty of the new proposed splits (i.e., Charades-CD and 
 * [WSSL](https://github.com/XgDuan/WSDEC)
 
 For all these SOTA methods, we use the public official implementations to get their temporal grounding results. The results of the proposed test-iid and test-ood sets on two
-datasets come from the same model finetuned on their respective val set. For more fair comparisons, we have unified the feature representations of the videos and sentence queries. To cater for most of TSGV methods, we use [I3D feature]((https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing)) for the videos in Charades-STA (Charades-CD), and [C3D feature](https://drive.google.com/file/d/1X8GT1MohStPfaoTlDiuzZAHkas5Qt3t8/view?usp=sharing) for the videos in ActivityNet Captions (Activity-CD). Each word in the query sentences is encoded by a [GloVe](http://nlp.stanford.edu/data/glove.840B.300d.zip) word representation.
+datasets come from the same model finetuned on their respective val set. For more fair comparisons, we have unified the feature representations of the videos and sentence queries. To cater for most of TSGV methods, we use [I3D feature](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing) for the videos in Charades-STA (Charades-CD), and [C3D feature](https://drive.google.com/file/d/1X8GT1MohStPfaoTlDiuzZAHkas5Qt3t8/view?usp=sharing) for the videos in ActivityNet Captions (Activity-CD). Each word in the query sentences is encoded by a [GloVe](http://nlp.stanford.edu/data/glove.840B.300d.zip) word representation.
 
 ## Results
 
