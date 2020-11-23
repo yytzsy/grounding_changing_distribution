@@ -10,14 +10,16 @@ We present new splits of Charades-STA and ActivityNet Captions, called Charades-
 To demonstrate the difficulty of the new proposed splits (i.e., Charades-CD and ActivityNet-CD), we compare the performance of two simple baselines and eight state-ofthe-art methods on both the original and proposed splits. 
 * Bias-based method: it uses the gaussian kernel density estimation to fit the moment annotation distribution, and randomly samples several locations based on the fitted distribution as the moment predictions. 
 * PredictAll method: it directly predicts the whole video as the moment predictions.
-* CTRL
-* ACRN
-* ABLR
-* SCDM
-* 2D-TAN
-* DRN
-* TSP-PRL
-* WSSL
+* [CTRL](https://github.com/jiyanggao/TALL)
+* [ACRN](https://sigir2018.wixsite.com/acrn)
+* [ABLR](https://github.com/yytzsy/ABLR_code)
+* [SCDM](https://github.com/yytzsy/SCDM)
+* [2D-TAN](https://github.com/microsoft/2D-TAN)
+* [DRN](https://github.com/Alvin-Zeng/DRN)
+* [TSP-PRL](https://github.com/WuJie1010/TSP-PRL)
+* [WSSL](https://github.com/XgDuan/WSDEC)
+For all these SOTA methods, we use the public official implementations to get their temporal grounding results. The results of the proposed test-iid and test-ood sets on two
+datasets come from the same model finetuned on their respective val set. For more fair comparisons, we have unified the feature representations of the videos and sentence queries. To cater for most of TSGV methods, we use [I3D feature]((https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing)) for the videos in Charades-STA (Charades-CD), and [C3D feature](https://drive.google.com/file/d/1X8GT1MohStPfaoTlDiuzZAHkas5Qt3t8/view?usp=sharing) for the videos in ActivityNet Captions (Activity-CD). Each word in the query sentences is encoded by a [GloVe](http://nlp.stanford.edu/data/glove.840B.300d.zip) word representation.
 
 ## Results
 
